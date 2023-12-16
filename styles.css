@@ -3,9 +3,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
+  
   font-family: sans-serif;
 }
+
+/* all styling for left side of the page */
 
 .leftside {
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
@@ -44,5 +46,41 @@ footer, footer a {
   text-align: center;
 }
 
+/* all styling for right side of the page */
 
+.rightside {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 242, 242);
+  height: 100vh;
+}
 
+.title {
+  width: 63%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.form-title h2 {
+  padding-left: 10%;
+}
+
+section {
+  background-color: white;
+  padding-bottom: 2%;
+  box-shadow: 20% black;
+}
+
+button {
+  color: white;
+  background-color: #596D48;
+  width: 250px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 10%;
+  border-radius: 12px;
+}
+
+h4 {
+  padding-left: 10%;
+}
