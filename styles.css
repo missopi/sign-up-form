@@ -5,6 +5,7 @@ body {
   align-items: center;
   
   font-family: sans-serif;
+  height: 100vh;
 }
 
 /* all styling for left side of the page */
@@ -14,7 +15,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 45%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,7 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: 6.7rem;
   padding-top: 2%;
   height: 150px;
 }
@@ -55,18 +56,22 @@ footer, footer a {
   flex-direction: column;
   background-color: rgb(242, 242, 242);
   height: 100vh;
+  width: auto;
+}
+
+.section-one {
+  padding-top: 3rem;
 }
 
 .title {
-  width: 63%;
+  width: 75%;
   padding-left: 10%;
-  padding-top: 7.4%;
 }
 
 label {
   color: #6e6e6f;
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
+  font-size: 0.5rem;
+  letter-spacing: 0.1rem;
   font: bold 0.8em sans-serif;
 }
 
@@ -74,20 +79,21 @@ input {
   font-family: inherit;
   font-size: 100%;
   border: 1px solid #E5E7EB;
-  width: 300px;
-  padding: 0.2rem;
+  width: 350px;
   box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.4rem;
 }
 
 .form-title h2 {
   padding-left: 10%;
 }
 
-section {
+.section-two {
   margin-top: 5%;
   background-color: white;
   padding-top: 1%;
-  padding-bottom: 6%;
+  padding-bottom: 3%;
   box-shadow: 20% black;
 }
 
@@ -96,7 +102,7 @@ button {
   background-color: #596D48;
   width: 250px;
   height: 50px;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 10%;
   border-radius: 12px;
   font: bold 1em sans-serif;
@@ -121,7 +127,7 @@ h4 {
 
 input[type="text"],
 input[type="email"] {
-  margin-bottom: 15%;
+  margin-bottom: 6%;
 }
 
 input:invalid {
