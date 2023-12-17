@@ -3,7 +3,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   font-family: sans-serif;
   height: 100vh;
 }
@@ -94,7 +93,7 @@ input {
   background-color: white;
   padding-top: 1%;
   padding-bottom: 3%;
-  box-shadow: 20% black;
+  box-shadow: 5px 10px 8px #c9c9c9;
 }
 
 button {
@@ -102,7 +101,7 @@ button {
   background-color: #596D48;
   width: 250px;
   height: 50px;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-left: 10%;
   border-radius: 12px;
   font: bold 1em sans-serif;
